@@ -1,0 +1,34 @@
+.title{
+  text-align: center;
+}
+.hide{
+  display: none;
+}
+#d3{
+  margin: 0;
+  padding: 0;
+  width:280px;
+  height: 280px;
+}
+#d4{
+  width:280px;
+  height: 280px;
+  z-index:100;
+  left:0;
+  top:0;
+}
+#d2{
+  width:400px;
+  height: 400px;
+  position: absolute;
+  top:0;left:0px;
+  background: #aaa;
+}
+#mask{
+  width:100px;
+  height:100px;
+  background: rgba(255,255,0,0.3);
+  position: absolute;
+  top:0;
+  left:0;
+}

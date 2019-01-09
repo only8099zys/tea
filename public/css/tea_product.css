@@ -1,0 +1,39 @@
+
+#d1 div{
+  width:280px;
+  margin-left: 20px;
+  height:280px;
+  border:1px solid lightgray;
+  float:left;
+}
+#d1 div span{
+  color:#004436;
+  font-size: 20px;
+}
+#d1 div img{
+  width:210px;
+  height:210px;
+}
+.title{
+  margin-top: 20px;
+  text-align: center;
+}
+#d1>div:hover{
+  border: 2px solid black;
+  box-shadow: 0 0 20px black;
+}
+.bn,.bbn{
+  display: inline-block;
+  background: #004436;
+  color:#fff;
+  text-align: center;
+  line-height: 30px;
+  height:30px;
+}
+.bbn{
+  width:60px;
+}
+.bn{
+  width: 30px;
+}
+

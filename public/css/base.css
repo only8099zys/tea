@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  float: left;
+}
+
+ul li>a>div,.xl>div{
+  height:40px;
+  border: 1px solid #0DB1A5;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  padding: 0 1rem;
+  color:darkgreen;
+}
+.xl>div{
+  width:50%;
+  padding: 0 !important;
+}
+ul li>a>div:hover,.xl>div:hover,.xl1>div:hover{
+  text-decoration: none;
+  background:#004436;
+  color:#fff;
+  font-weight: bold;
+}

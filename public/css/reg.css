@@ -1,0 +1,61 @@
+.l_bg{
+    width: 1423px;
+    height: 750px;
+    background:url("../images/banner01.jpg");
+    background-repeat: no-repeat;
+}
+
+.kuang>input{
+    display: inline-block;
+}
+.kuang{
+    width: 450px;
+    height: 500px;
+    border:3px solid #004436;
+    font-size:16px;
+    color:#004436;
+ /*   background: #004436;*/
+    margin: 155px 0 0 200px;
+}
+.mt{
+    margin-bottom: 24px;
+}
+.l_bg::before{
+    content: '';
+    display: table;
+}
+.hide_to{
+    display: none;
+}
+.mar_left{
+  margin-top:50px ;
+  margin-left:180px ;
+}
+.success,.fail{
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.mymodal{
+  margin:0 auto;
+  width:400px;
+  background:rgba(144,144,144,0.3);
+  position:absolute;
+  top:230px;
+  left:200px;
+  height:300px;
+  line-height: 300px;
+  text-align: center;
+  font-size: 16px;
+}
+#bb1{
+  position:absolute;
+  top:0;
+  left:363px;
+}
+.success{
+  color:green;
+}
+.fail{
+  color:red;
+}
